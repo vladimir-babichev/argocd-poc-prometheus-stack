@@ -1,0 +1,13 @@
+kube-prometheus-stack:
+  prometheus:
+    ingress:
+      hosts:
+        - prometheus.local
+  grafana:
+    ingress:
+      hosts:
+        - grafana.local
+  alertmanager:
+    ingress:
+      hosts:
+        - alertmanager.local
